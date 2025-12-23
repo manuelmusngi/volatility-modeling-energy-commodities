@@ -16,13 +16,12 @@ Applies identical model specifications across commodities and equities, enabling
 🛡️ Risk Management & Hedging Applications
 Forecasted conditional variances can be used to derive optimal hedge ratios, supporting practical decision‑making for traders, portfolio managers, and risk analysts.
 
-Methodology: Mapping Code to Econometric Models
+#### Methodology: Mapping Code to Econometric Models
 This section explicitly links each code module to the mathematical formulations presented in the paper.
 
-1. Return Process
-All assets are modeled as log‑returns:
-
-𝑟𝑡 = 𝜇 + 𝜀𝑡,  𝜀𝑡 = 𝜎𝑡𝑧𝑡,  𝑧𝑡 ∼ 𝐷(0,1)
+#### 1. Return Process
+     All assets are modeled as log‑returns:
+                                           𝑟𝑡 = 𝜇 + 𝜀𝑡,  𝜀𝑡 = 𝜎𝑡𝑧𝑡,  𝑧𝑡 ∼ 𝐷(0,1)
 
 #### Project architecture
 
