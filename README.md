@@ -31,6 +31,16 @@ This section explicitly links each code module to the mathematical formulations 
           - config/settings.py
                - Defines distributional assumptions (GED, Student‑t).
 
+#### 2. GARCH(1,1) — Baseline Model
+𝜎𝑡2 = 𝜔 + 𝛼𝜀2𝑡 − 1 + 𝛽𝜎2𝑡-1
+
+#### Code mapping
+     - models/model_factory.py
+          - Instantiates baseline GARCH specifications.
+
+     - models/forecasting.py
+          - Fits model and generates conditional variance forecasts.
+
 #### Project architecture
 
 volatility_model_app/\
