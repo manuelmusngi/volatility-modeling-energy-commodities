@@ -55,7 +55,7 @@ This section explicitly links each code module to the mathematical formulations 
   - EGARCH specification with asymmetric term.
 
 - models/forecasting.py
- - Rolling estimation and volatility forecasting.
+  - Rolling estimation and volatility forecasting.
 
 <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5a0783d5-17b6-467c-9a30-a0c620773cac" /> Project Architecture
 
