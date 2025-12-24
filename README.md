@@ -35,7 +35,7 @@ This section explicitly links each code module to the mathematical formulations 
   - Defines distributional assumptions (GED, Student‑t).
 
 #### 2. GARCH(1,1) — Baseline Model
-                                   𝜎𝑡2 = 𝜔 + 𝛼𝜀2𝑡 − 1 + 𝛽𝜎2𝑡-1
+                                   𝜎^2𝑡 = 𝜔 + 𝛼𝜀^2𝑡 − 1 + 𝛽𝜎^2𝑡-1
 
 #### Code mapping
 - models/model_factory.py
@@ -46,7 +46,7 @@ This section explicitly links each code module to the mathematical formulations 
 
 3. EGARCH(1,1) — Asymmetric Volatility
 
-                         ln(𝜎2𝑡) = 𝜔 + 𝛼|𝜀𝑡 − 1/𝜎𝑡 - 1| + (𝛾) 𝜀𝑡 − 1/𝜎𝑡 − 1 + 𝛽ln(𝜎2𝑡 − 1)
+                         ln(𝜎^2𝑡) = 𝜔 + 𝛼|𝜀𝑡 − 1/𝜎𝑡 - 1| + (𝛾) 𝜀𝑡 − 1/𝜎𝑡 − 1 + 𝛽ln(𝜎^2𝑡 − 1)
                          
      Captures leverage effects and avoids non‑negativity constraints on variance.
 
@@ -60,7 +60,7 @@ This section explicitly links each code module to the mathematical formulations 
 
 #### 4. FIGARCH(1,d,1) — Long‑Memory Volatility
 
-                         𝜎2𝑡 = 𝜔 + [1 − 𝛽(𝐿)] − 1[1−(1−𝛼(𝐿))(1−𝐿)𝑑]𝜀2𝑡
+                         𝜎^2𝑡 = 𝜔 + [1 − 𝛽(𝐿)] − 1[1−(1−𝛼(𝐿))(1−𝐿)𝑑]𝜀^2𝑡
 
 Models fractional integration 0 < 𝑑 < 1, allowing shocks to decay hyperbolically.
 
