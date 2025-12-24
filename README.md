@@ -48,10 +48,9 @@ This section explicitly links each code module to the mathematical formulations 
 
                          ln(𝜎2𝑡) = 𝜔 + 𝛼|𝜀𝑡 − 1/𝜎𝑡 - 1| + (𝛾) 𝜀𝑡 − 1/𝜎𝑡 − 1 + 𝛽ln(𝜎2𝑡 − 1)
                          
-Captures leverage effects and avoids non‑negativity constraints on variance.
+     Captures leverage effects and avoids non‑negativity constraints on variance.
 
 #### Code mapping
-
 - models/model_factory.py
   - EGARCH specification with asymmetric term.
 
