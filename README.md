@@ -34,10 +34,10 @@ This section explicitly links each code module to the mathematical formulations 
                                    𝜎𝑡2 = 𝜔 + 𝛼𝜀2𝑡 − 1 + 𝛽𝜎2𝑡-1
 
 #### Code mapping
-     - models/model_factory.py
+- models/model_factory.py
           - Instantiates baseline GARCH specifications.
 
-     - models/forecasting.py
+- models/forecasting.py
           - Fits model and generates conditional variance forecasts.
 
 #### Project architecture
