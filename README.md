@@ -14,13 +14,13 @@ This project is a production‑ready volatility modeling framework for NYMEX Hen
 
 The system benchmarks:
 
-GARCH‑family models (GARCH, EGARCH, FIGARCH) for persistence, asymmetry, and long‑memory effects
+- GARCH‑family models (GARCH, EGARCH, FIGARCH) for persistence, asymmetry, and long‑memory effects
 
-Regime‑switching models (MS‑GARCH, HMM‑GARCH) to capture structural volatility states
+- Regime‑switching models (MS‑GARCH, HMM‑GARCH) to capture structural volatility states
 
-Machine‑learning models (Random Forest, XGBoost, LSTM) as non‑parametric forecasting baselines
+- Machine‑learning models (Random Forest, XGBoost, LSTM) as non‑parametric forecasting baselines
 
-Hybrid econometric–ML models combining interpretable volatility structure with nonlinear residual learning
+- Hybrid econometric–ML models combining interpretable volatility structure with nonlinear residual learning
 
 All models are evaluated in a rolling, out‑of‑sample forecasting framework with consistent metrics and reproducible configuration.
 
