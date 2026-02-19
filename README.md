@@ -33,7 +33,7 @@ The goal is to provide a **modular, extensible, and reproducible** platform for 
 #### 🧠 Research Reference Foundations
 
 #### **1. Regime‑Switching Volatility**
-Arouri, Lahiani & Nguyen (2012) show that natural gas exhibits **distinct volatility regimes**, often linked to structural market events.  
+Recent empirical studies confirm that natural gas and energy commodity markets exhibit distinct volatility regimes, often associated with structural market events and stress periods (Balcilar et al., 2021; Nguyen & Walther, 2022; Kang et al., 2021).
 
 This project implements:
 
