@@ -10,7 +10,7 @@
 
 #### 📌 Overview
 
-This project is a production‑ready volatility modeling framework for NYMEX Henry Hub natural gas, built to analyze volatility persistence, regime shifts, and forecast performance across econometric, machine‑learning, and hybrid approaches.
+This project is a volatility modeling framework for NYMEX Henry Hub natural gas, built to analyze volatility persistence, regime shifts, and forecast performance across econometric, machine‑learning, and hybrid approaches.
 
 The system benchmarks:
 
