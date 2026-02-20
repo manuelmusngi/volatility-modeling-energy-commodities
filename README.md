@@ -40,21 +40,16 @@ This project implements:
 - Hidden Markov Models (HMM)
 - Markov‑Switching GARCH (MS‑GARCH)
 - Regime‑dependent volatility forecasts
-- Smoothed & filtered regime probabilities
 
 #### **2. GARCH vs ML Benchmarking**
 Chung (2024) finds:
 
-- Natural gas volatility has **strong persistence**
-- Spillovers from other markets are **weak**
 - **Hybrid models outperform standalone GARCH or ML**
 
 This project integrates:
 
-- Pure econometric models  
-- Pure ML models  
 - Hybrid GARCH‑residual ML models  
-- Comparative evaluation (MSE, MAE, QLIKE)
+- Comparative evaluation (MSE, MAE)
 
 ---
 
